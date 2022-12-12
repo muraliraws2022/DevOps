@@ -21,7 +21,7 @@ Download maven packages https://maven.apache.org/download.cgi onto Jenkins serve
 Setup M2_HOME and M2 paths in .bash_profile of user and add these to path variable
 ```sh
   vi ~/.bash_profile
-  M2_HOME=/opt/maven/apache-maven-3.6.0
+  M2_HOME=/opt/maven/apache-maven-3.8.6
   M2=$M2_HOME/bin
   PAHT=<Existing_PATH>:$M2_HOME:$M2
 ```
